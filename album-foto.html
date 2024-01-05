@@ -22,18 +22,21 @@
 
     <div class="container">
 
-        <div class="content">
-            <div class="text-content">
-                <div class="h2">
-                    <h2>Salut, sunt Ioan-Anton Savulescu!</h1>       
-                </div>
-                <div class="p">
-                    <p>Student la Universitatea Petrol-Gaze din Ploiesti, Informatica Economica, anul III.</p> 
-                </div>
+        <div class="album-content">
+            <h2>Album Foto</h2>
+
+            <div class="album-foto-full" id="fullImgBox">
+                <img src="img/p1.jpg" alt="" id="fullImg">
+                <span onclick="closeFullImg()">x</span>
             </div>
 
-            <div class="image">
-                <img src="img/persoana.png" alt="Ioan-Anton Savulescu">
+            <div class="album-foto">
+                <img src="img/p1.jpg" alt="" onclick="openFullImg()">
+                <img src="img/p2.jpg" alt="" onclick="openFullImg()">
+                <img src="img/p3.jpg" alt="" onclick="openFullImg()">
+                <img src="img/p4.jpg" alt="" onclick="openFullImg()">
+                <img src="img/p5.jpg" alt="" onclick="openFullImg()">
+                <img src="img/p6.jpg" alt="" onclick="openFullImg()">
             </div>
         </div>
 
@@ -48,5 +51,7 @@
     <footer>
         <p>&copy; 2024 Ioan-Anton Savulescu. Toate drepturile rezervate.</p>
     </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
