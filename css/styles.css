@@ -510,3 +510,34 @@ footer {
         width: 100%;       
     }
 }
+
+@media screen and (max-width: 1440px ) {
+    
+    h1{
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+    
+    .content{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .text-content{    
+        padding: 20px;
+        height: 40%;
+        width: 70%;
+    }
+
+    .image {
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    .image img {
+        width: 100%;       
+    }
+}
