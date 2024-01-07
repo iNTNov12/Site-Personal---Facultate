@@ -42,27 +42,27 @@
                     <label for="attachment">Încarcă un fișier:</label>
                     <input type="file" id="attachment" name="attachment">
 
-                    <label>Alege o opțiune:</label>
+                    <label>Tara:</label>
                     <select name="options" id="options">
-                        <option value="option1">Opțiune 1</option>
-                        <option value="option2">Opțiune 2</option>
-                        <option value="option3">Opțiune 3</option>
+                        <option value="option1">Romania</option>
+                        <option value="option2">USA</option>
+                        <option value="option3">Rusia</option>
                     </select>
 
                     <fieldset>
-                        <legend>Alege preferințele tale:</legend>
-                        <label><input type="checkbox" name="preference"> Preferința 1</label>
-                        <label><input type="checkbox" name="preference"> Preferința 2</label>
-                        <label><input type="checkbox" name="preference"> Preferința 3</label>
+                        <legend>Alege limbajele tale preferate:</legend>
+                        <label><input type="checkbox" name="preference"> C#</label>
+                        <label><input type="checkbox" name="preference"> C++</label>
+                        <label><input type="checkbox" name="preference"> Java</label>
                     </fieldset>
 
                     <fieldset>
-                        <legend>Alege un radio:</legend>
-                        <label><input type="radio" name="radio" value="radio1"> Radio 1</label>
-                        <label><input type="radio" name="radio" value="radio2"> Radio 2</label>
-                        <label><input type="radio" name="radio" value="radio3"> Radio 3</label>
+                        <legend>Alege un subiect preferat:</legend>
+                        <label><input type="radio" name="radio" value="poo"> POO</label>
+                        <label><input type="radio" name="radio" value="algoritimi"> Algoritmi si tehnici de calcul</label>
+                        <label><input type="radio" name="radio" value="ia"> IA si ML</label>
                     </fieldset>
-                    <button type="submit">Trimite Mesaj</button>
+                    <button type="submit" onclick="AlertButton()">Trimite Mesaj</button>
                 </form>
             </div>
         </div>
@@ -78,5 +78,7 @@
     <footer>
         <p>&copy; 2024 Ioan-Anton Savulescu. Toate drepturile rezervate.</p>
     </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>

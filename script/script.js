@@ -16,3 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         albumFull.style.display = 'none';
     });
 });
+
+
+function AlertButton() {
+    alert('Formular trimis cu succes!');
+}
